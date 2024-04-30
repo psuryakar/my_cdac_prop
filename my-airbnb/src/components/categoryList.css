@@ -1,0 +1,41 @@
+.category-list {
+    width: 100%;
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .horizontal-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .horizontal-filters .form-group {
+    flex: 1;
+  }
+  
+  .horizontal-filters .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .horizontal-filters .form-control {
+    width: 100%;
+  }
+  
+  .horizontal-filters .input-group {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .horizontal-filters .input-group .form-control {
+    flex: 1;
+  }
+  
+  .horizontal-filters button {
+    margin-top: 10px;
+  }
+  
